@@ -1,0 +1,115 @@
+body {
+    background-color: #F6F6F6;
+    color: black;
+    font-family: 'Avenir', serif;
+    font-size: 25px;
+    font-weight: 0,600;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(100, 30, 250);
+    font-family: Avenir;
+    letter-spacing: 3px;
+    font-size: 60px;
+    font-weight: 0,900;
+     
+}
+
+h2 {
+    color: rgb(100, 30, 250);
+    font-family: Avenir;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 0,500;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #FF8E2A;
+    
+
+}
+a:hover {
+    color: #29779E;    
+}
+
+
+/* Custom design with class*/
+
+.container {    
+    width: 750px;
+    margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+
+    .container {
+        width: 400px;
+
+    }
+}
+@media (max-width: 760px) {
+
+    .container {
+        width: 600px;
+    }
+}
+  
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {/* select all elements with the class="img-circle" */
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 25px;
+  height: 200px;
+}
+
+.btn-blue {
+    background-color: rgba(150, 10, 200, 1);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover{
+    background-color: black;
+    color: white;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #FF8E2A;
+}
+.list-inline i:hover {
+    color: black;
+}
+
+/* Design adjustment usinf id (1% design remaining) */
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
